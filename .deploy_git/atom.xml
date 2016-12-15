@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-12-13T07:51:01.207Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Navicat Can&#39;t connect to remote MySQL server with error 61</title>
+    <link href="http://yoursite.com/2016/12/13/Navicat-Can-t-connect-to-remote-MySQL-server-with-error-61/"/>
+    <id>http://yoursite.com/2016/12/13/Navicat-Can-t-connect-to-remote-MySQL-server-with-error-61/</id>
+    <published>2016-12-13T07:46:55.000Z</published>
+    <updated>2016-12-13T07:51:01.207Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Navicat无法连接远程数据库问题"><a href="#Navicat无法连接远程数据库问题" class="headerlink" title="Navicat无法连接远程数据库问题"></a>Navicat无法连接远程数据库问题</h1><p>标签： apache Navicat</p>
+<hr>
+<h2 id="1、Check-if-your-mysql-server-is-listening-on-a-socket-with-netstat："><a href="#1、Check-if-your-mysql-server-is-listening-on-a-socket-with-netstat：" class="headerlink" title="1、Check if your mysql server is listening on a socket with netstat："></a>1、Check if your mysql server is listening on a socket with netstat：</h2><blockquote>
+<ul>
+<li>netstat -tulpen</li>
+</ul>
+</blockquote>
+<p><img src="http://oaz1tuqnw.bkt.clouddn.com/eventFileList/60c98243-c21e-4f81-b2e7-d6ec9751e349.png!thumbnail" alt="截图1"></p>
+<h2 id="2、修改-etc-mysql-mysql-conf-d-mysqld-cnf中"><a href="#2、修改-etc-mysql-mysql-conf-d-mysqld-cnf中" class="headerlink" title="2、修改/etc/mysql/mysql.conf.d/mysqld.cnf中"></a>2、修改/etc/mysql/mysql.conf.d/mysqld.cnf中</h2><p><img src="http://oaz1tuqnw.bkt.clouddn.com/eventFileList/42a7779e-0b91-4c1d-a18b-b77569a2f455.png!thumbnail" alt="截图2"></p>
+<h2 id="3、数据库重启："><a href="#3、数据库重启：" class="headerlink" title="3、数据库重启："></a>3、数据库重启：</h2><blockquote>
+<ul>
+<li>sudo /etc/init.d/mysql restart</li>
+</ul>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Navicat无法连接远程数据库问题&quot;&gt;&lt;a href=&quot;#Navicat无法连接远程数据库问题&quot; class=&quot;headerlink&quot; title=&quot;Navicat无法连接远程数据库问题&quot;&gt;&lt;/a&gt;Navicat无法连接远程数据库问题&lt;/h1&gt;&lt;p&gt;标签： ap
+    
+    </summary>
+    
+      <category term="apache" scheme="http://yoursite.com/categories/apache/"/>
+    
+    
+      <category term="Navicat" scheme="http://yoursite.com/tags/Navicat/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>My New Post</title>
+    <link href="http://yoursite.com/2016/12/06/My-New-Post/"/>
+    <id>http://yoursite.com/2016/12/06/My-New-Post/</id>
+    <published>2016-12-06T09:57:13.508Z</published>
+    <updated>2016-12-06T09:57:13.460Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="my-new-post"><a href="#my-new-post" class="headerlink" title="my-new-post"></a>my-new-post</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;my-new-post&quot;&gt;&lt;a href=&quot;#my-new-post&quot; class=&quot;headerlink&quot; title=&quot;my-new-post&quot;&gt;&lt;/a&gt;my-new-post&lt;/h2&gt;
+    
+    </summary>
+    
+      <category term="demo" scheme="http://yoursite.com/categories/demo/"/>
+    
+    
+      <category term="test" scheme="http://yoursite.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2016/12/06/hello-world/"/>
+    <id>http://yoursite.com/2016/12/06/hello-world/</id>
+    <published>2016-12-06T09:49:30.841Z</published>
+    <updated>2016-12-06T09:49:30.841Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
